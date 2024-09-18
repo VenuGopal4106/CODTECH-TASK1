@@ -1,0 +1,22 @@
+/* Create a Python program that acts as a basic calculator. It should prompt the user toenter two numbers and choose an operation (addition, subtraction, multiplication, division). Then, it should perform the selected operation and display the result to the user */
+
+def calculator(num1,num2,n):
+    match n:
+        case 1:
+            return num1+num2
+        case 2:
+            return num1-num2
+        case 3:
+            return float(num1*num2)
+        case 4:
+            if(num2!=0):
+                return float(num1/num2)
+            else:
+                return "check the number2 and number2 should be non-zero"
+print("Select operation:")
+print(" 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.divition")
+n=int(input("Enter choice (1/2/3/4):"))
+num1=float(input("enter the number1:"))
+num2=float(input("Enter the number2:"))
+print(calculator(num1,num2,n))
+        
