@@ -92,6 +92,6 @@ Potential future enhancements include:
 - Expanding the functionality to include more advanced operations such as exponentiation, square root, etc.
 - Implementing a GUI (Graphical User Interface) for a more user-friendly experience.
 
-. Conclusion:
+7. Conclusion:
 This project successfully implements a basic calculator in Python that can perform addition, subtraction, multiplication, and division. It demonstrates key programming concepts such as user input handling, arithmetic operations, and basic error checking. Through this project, a foundational understanding of how calculators operate and how to implement them using Python has been gained.
 
