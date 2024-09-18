@@ -85,13 +85,13 @@ Enter the number2: 5
 - Input Validation: The current version does not validate non-integer inputs for the operation choice or non-numeric inputs for the numbers.
 - Floating-point Precision: As with many calculators, floating-point operations may result in minor precision errors.
   
-7. Future Improvements
+6. Future Improvements
 Potential future enhancements include:
 - Adding input validation to ensure the user enters valid data.
 - Allowing the calculator to perform operations on more than two numbers.
 - Expanding the functionality to include more advanced operations such as exponentiation, square root, etc.
 - Implementing a GUI (Graphical User Interface) for a more user-friendly experience.
 
-8. Conclusion:
+. Conclusion:
 This project successfully implements a basic calculator in Python that can perform addition, subtraction, multiplication, and division. It demonstrates key programming concepts such as user input handling, arithmetic operations, and basic error checking. Through this project, a foundational understanding of how calculators operate and how to implement them using Python has been gained.
 
